@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px cornflowerblue;
+    color: brown;
+}
+div.contenedor > p{
+    background-color: lightskyblue;
+    color: antiquewhite;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius:8px;
+}
+
+div.contenedor{
+    background-color: rgba(0, 17, 128, 0.393);
+    padding: 2px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    border-radius:8px;
+}
+
+img {
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: solid yellow;
+    border-radius: 25px; 
+    background-color: rgba(245, 245, 220, 0.364);
+}
+
+body{
+    background-color: lightgrey;
+    background-image: url("goku.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
